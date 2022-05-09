@@ -23,13 +23,13 @@
                 <tr>
                     <td class="auto-style2">Id</td>
                     <td>
-                        <asp:TextBox ID="Aid" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="Aid" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">Username</td>
                     <td>
-                        <asp:TextBox ID="AUsername" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="AUsername" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
