@@ -54,7 +54,7 @@
                 <tr>
                     <td class="auto-style2">Email</td>
                     <td>
-                        <asp:TextBox ID="KEmail" runat="server" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="KEmail" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -66,7 +66,7 @@
                 <tr>
                     <td class="auto-style3">Level</td>
                     <td class="auto-style4">
-                        <asp:DropDownList ID="KLevel" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                        <asp:DropDownList ID="KLevel" runat="server">
                             <asp:ListItem>BEGINNER</asp:ListItem>
                             <asp:ListItem>INTERMEDIATE</asp:ListItem>
                             <asp:ListItem>ADVANCED</asp:ListItem>
